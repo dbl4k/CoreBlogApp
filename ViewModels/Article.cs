@@ -9,6 +9,8 @@ namespace CoreBlogApp.ViewModels
     {
         public string Title;
         public string Content;
-
+        public DateTime CreatedDate;
+        public DateTime ModifiedDate;
+        public bool IsPublished;
     }
 }
