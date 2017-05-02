@@ -12,5 +12,6 @@ namespace CoreBlogApp.ViewModels
         public DateTime CreatedDate;
         public DateTime ModifiedDate;
         public bool IsPublished;
+        public List<String> Tags;
     }
 }
